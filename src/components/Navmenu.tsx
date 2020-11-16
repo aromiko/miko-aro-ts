@@ -1,9 +1,9 @@
-import Facebook from "../assets/images/icons/facebook.svg";
-import Instagram from "../assets/images/icons/instagram.svg";
-import Linkedin from "../assets/images/icons/linkedin.svg";
+import Facebook from "assets/images/icons/facebook.svg";
+import Instagram from "assets/images/icons/instagram.svg";
+import Linkedin from "assets/images/icons/linkedin.svg";
 import React from "react";
 import { State } from "ducks/Reducers";
-import Twitter from "../assets/images/icons/twitter.svg";
+import Twitter from "assets/images/icons/twitter.svg";
 import { useSelector } from "react-redux";
 
 const openSocialMedia = (url: string) => {
