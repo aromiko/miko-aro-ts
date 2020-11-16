@@ -3,11 +3,11 @@ import React, { useEffect, useRef, useState } from "react";
 import { State } from "redux/Reducers";
 import { useSelector } from "react-redux";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   const navbarToggle: boolean = useSelector(
     (state: State) => state.navbarToggle
   );
-  const [footerToggle, setFooterToggle] = useState<boolean>(false);
+  const [footerToggle, setFooterToggle] = useState(false);
 
   const mounted = useRef() as React.MutableRefObject<Boolean>;
   useEffect(() => {

@@ -6,12 +6,12 @@ import { State } from "redux/Reducers";
 import Twitter from "assets/images/icons/twitter.svg";
 import { useSelector } from "react-redux";
 
-const openSocialMedia = (url: string) => {
-  window.open(url, "_blank");
-};
-
-const Navmenu = () => {
+const Navmenu: React.FC = () => {
   const navbarToggle = useSelector((state: State) => state.navbarToggle);
+
+  const openSocialMedia = (url: string): void => {
+    window.open(url, "_blank");
+  };
   return (
     <div
       className={`flex flex-col sm:flex-row items-center justify-between w-screen h-screen bg-white fixed transition ease-in-out duration-400 p-20 lg:px-30 lg:py-0 z-40 ${

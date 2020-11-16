@@ -4,7 +4,7 @@ import React from "react";
 import { State } from "redux/Reducers";
 import { toggleNavbar } from "redux/Actions";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const navbarToggle: boolean = useSelector(
     (state: State) => state.navbarToggle
   );
