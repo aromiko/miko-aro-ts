@@ -1,5 +1,5 @@
-import * as Actions from "ducks/Actions";
-import * as Types from "ducks/Types";
+import * as Actions from "redux/Actions";
+import * as Types from "redux/Types";
 
 export interface State {
   navbarToggle: boolean;

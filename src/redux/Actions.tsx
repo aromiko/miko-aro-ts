@@ -1,4 +1,4 @@
-import * as ActionTypes from "ducks/Types";
+import * as ActionTypes from "redux/Types";
 
 // export const NavbarToggle = (navbarToggle: ActionTypes.NAVBAR_TOGGLE) => {
 //   return {

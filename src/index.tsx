@@ -4,7 +4,7 @@ import App from "pages/App";
 import { Provider } from "react-redux";
 import React from "react";
 import ReactDOM from "react-dom";
-import store from "ducks/Store";
+import store from "redux/Store";
 
 ReactDOM.render(
   <React.StrictMode>

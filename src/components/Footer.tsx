@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-import { State } from "ducks/Reducers";
+import { State } from "redux/Reducers";
 import { useSelector } from "react-redux";
 
 const Footer = () => {
