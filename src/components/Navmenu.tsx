@@ -5,6 +5,7 @@ import React from "react";
 import { State } from "redux/Reducers";
 import Twitter from "assets/images/icons/twitter.svg";
 import { useSelector } from "react-redux";
+import "assets/styles/navbar.css";
 
 const Navmenu: React.FC = () => {
   const navbarToggle = useSelector((state: State) => state.navbarToggle);
