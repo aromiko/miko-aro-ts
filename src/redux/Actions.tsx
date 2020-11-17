@@ -8,7 +8,7 @@ import * as ActionTypes from "redux/Types";
 // };
 
 export interface ToggleNavbar {
-  type: ActionTypes.NAVBAR_TOGGLE;
+  type: ActionTypes.TYPE_NAVBAR_TOGGLE;
   payload: boolean;
 }
 
