@@ -59,3 +59,34 @@ button:focus {
 img {
   pointer-events: none;
 }
+
+body {
+  background-color: #151515;
+  color: white;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+
+.section-subtitle {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.ico.facebook,
+.ico.instagram,
+.ico.twitter,
+.ico.linkedin {
+  fill: white;
+}
+
+.image-box {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/building.jpg");
+  /* background-image: url("../images/building.jpg"); */
+  background-size: cover;
+}

@@ -1,62 +1,55 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
+
+import { ReactComponent as Facebook } from "assets/images/icons/facebook.svg";
+import { ReactComponent as Instagram } from "assets/images/icons/instagram.svg";
+import { ReactComponent as Twitter } from "assets/images/icons/twitter.svg";
+import { ReactComponent as Linkedin } from "assets/images/icons/linkedin.svg";
 
 import { State } from "redux/Reducers";
 import { useSelector } from "react-redux";
 
 const Footer: React.FC = () => {
-  const navbarToggle: boolean = useSelector(
-    (state: State) => state.navbarToggle
-  );
-  const [footerToggle, setFooterToggle] = useState(false);
-
-  const mounted = useRef() as React.MutableRefObject<Boolean>;
-  useEffect(() => {
-    if (!mounted.current) {
-      mounted.current = true;
-      console.log("mounted");
-      window.addEventListener("scroll", function () {
-        if (
-          window.innerHeight + Math.round(window.scrollY) >=
-          document.body.offsetHeight
-        ) {
-          setFooterToggle(true);
-        } else {
-          setFooterToggle(false);
-        }
-      });
-      return () => {
-        window.removeEventListener("scroll", () => {});
-      };
-    } else {
-      console.log("updated");
-    }
-  });
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", function () {
-  //     if (
-  //       window.innerHeight + Math.round(window.scrollY) >=
-  //       document.body.offsetHeight
-  //     ) {
-  //       setFooterToggle(true);
-  //     } else {
-  //       setFooterToggle(false);
-  //     }
-  //   });
-  //   return () => {
-  //     window.removeEventListener("scroll", () => {});
-  //   };
-  // }, []);
+  // const navbarToggle: boolean = useSelector(
+  //   (state: State) => state.navbarToggle
+  // );
 
   const getCurrentYear: Number = new Date().getFullYear();
   return (
-    <div
-      className={`flex flex-col justify-center items-center fixed w-full p-6 z-50 transition-all ease-in-out duration-400 ${
-        footerToggle === true || navbarToggle === true
-          ? "bottom-0 opacity-1"
-          : "-bottom-24 opacity-0"
-      }`}
-    >
+    <div className="flex flex-col justify-center w-full px-6 pt-6 pb-10 xl:px-80 xl:py-6">
+      <div className="flex flex-row mb-4">
+        <a
+          href="https://facebook.com/miko.aro"
+          target="_blank"
+          rel="noreferrer"
+          className="mr-3"
+        >
+          <Facebook height="1.75rem" width="1.75rem" />
+        </a>
+        <a
+          href="https://www.instagram.com/mikoaro"
+          target="_blank"
+          rel="noreferrer"
+          className="mx-3"
+        >
+          <Instagram height="1.75rem" width="1.75rem" />
+        </a>
+        <a
+          href="https://twitter.com/aromiko"
+          target="_blank"
+          rel="noreferrer"
+          className="mx-3"
+        >
+          <Twitter height="1.75rem" width="1.75rem" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/mikoaro"
+          target="_blank"
+          rel="noreferrer"
+          className="ml-3"
+        >
+          <Linkedin height="1.75rem" width="1.75rem" />
+        </a>
+      </div>
       <div>
         <a href="mailto:contact@miko-aro.com">contact@miko-aro.com</a>
       </div>
