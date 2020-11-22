@@ -1,8 +1,19 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 import Windmill from "assets/images/windmill.jpg";
 import Building from "assets/images/building.jpg";
+import Laptop from "assets/images/laptop.jpg";
+import Port from "assets/images/port.jpeg";
+import Sunset from "assets/images/sunset.jpeg";
 
 const Home = () => {
+  const imageBoxStyle = (url: string): CSSProperties => {
+    return {
+      background: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(${url}) no-repeat center center`,
+      backgroundSize: "cover",
+    };
+  };
+
   return (
     <div className="px-6 xl:px-80">
       <section>
@@ -27,15 +38,55 @@ const Home = () => {
       </section>
       <section>
         <div className="flex flex-col mb-40">
-          <div className="section-title">Work</div>
+          <div className="section-title mb-6">Work</div>
           <div className="flex flex-wrap">
-            <div className="lg:w-1/2 w-full">Bolton International Inc.</div>
-            <div className="lg:w-1/2 w-full">Tanda/Workforce.com</div>
             <div className="lg:w-1/2 w-full">
-              Fujitsu Global Delivery Center
+              <div
+                className="flex flex-col h-80 p-8 lg:mr-3 mb-6"
+                style={imageBoxStyle(Building)}
+              >
+                <h4 className="font-semibold">Bolton International</h4>
+                <p className="mt-auto">
+                  Work description here. Duration of work. Industry and clients
+                  involved. Click here for more details.
+                </p>
+              </div>
             </div>
             <div className="lg:w-1/2 w-full">
-              <div className="image-box h-20">Misys</div>
+              <div
+                className="flex flex-col h-80 p-8 lg:ml-3 mb-6"
+                style={imageBoxStyle(Laptop)}
+              >
+                <h4 className="font-semibold">Tanda | Workforce.com</h4>
+                <p className="mt-auto">
+                  Work description here. Duration of work. Industry and clients
+                  involved. Click here for more details.
+                </p>
+              </div>
+            </div>
+            <div className="lg:w-1/2 w-full">
+              <div
+                className="flex flex-col h-80 p-8 lg:mr-3 mb-6"
+                style={imageBoxStyle(Port)}
+              >
+                <h4 className="font-semibold">Fujitsu Philippines</h4>
+                <p className="mt-auto">
+                  Work description here. Duration of work. Industry and clients
+                  involved. Click here for more details.
+                </p>
+              </div>
+            </div>
+            <div className="lg:w-1/2 w-full">
+              <div
+                className="flex flex-col h-80 p-8 lg:ml-3 mb-6 "
+                style={imageBoxStyle(Sunset)}
+              >
+                <h4 className="font-semibold">Misys</h4>
+                <p className="mt-auto">
+                  Work description here. Duration of work. Industry and clients
+                  involved. Click here for more details.
+                </p>
+              </div>
             </div>
           </div>
         </div>
