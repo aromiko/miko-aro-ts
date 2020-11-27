@@ -2,7 +2,7 @@ import "assets/styles/main.css";
 
 import Footer from "components/Footer";
 import Home from "pages/Home";
-import Work from "pages/Work";
+// import Work from "pages/Work";
 import Navbar from "components/Navbar";
 import React from "react";
 import { Route, BrowserRouter, Redirect, Switch } from "react-router-dom";
