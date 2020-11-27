@@ -1,7 +1,7 @@
-import { useDispatch, useSelector } from "react-redux";
+// import { useDispatch, useSelector } from "react-redux";
 
 import React from "react";
-import { State } from "redux/Reducers";
+// import { State } from "redux/Reducers";
 // import { toggleNavbar } from "redux/Actions";
 
 const Navbar: React.FC = () => {
