@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
 
   const getCurrentYear: Number = new Date().getFullYear();
   return (
-    <div className="flex flex-col justify-center w-full px-6 pt-6 pb-10 xl:px-80 xl:py-6">
+    <div className="flex flex-col justify-center w-full px-6 pt-6 pb-12 xl:px-80 xl:py-6">
       <div className="flex flex-row mb-4">
         <a
           href="https://facebook.com/miko.aro"
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
           rel="noreferrer"
           className="mr-3"
         >
-          <Facebook height="1.75rem" width="1.75rem" />
+          <Facebook height="1.85rem" width="1.85rem" />
         </a>
         <a
           href="https://www.instagram.com/mikoaro"
@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
           rel="noreferrer"
           className="mx-3"
         >
-          <Instagram height="1.75rem" width="1.75rem" />
+          <Instagram height="1.85rem" width="1.85rem" />
         </a>
         <a
           href="https://twitter.com/aromiko"
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
           rel="noreferrer"
           className="mx-3"
         >
-          <Twitter height="1.75rem" width="1.75rem" />
+          <Twitter height="1.85rem" width="1.85rem" />
         </a>
         <a
           href="https://www.linkedin.com/in/mikoaro"
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
           rel="noreferrer"
           className="ml-3"
         >
-          <Linkedin height="1.75rem" width="1.75rem" />
+          <Linkedin height="1.85rem" width="1.85rem" />
         </a>
       </div>
       <div>

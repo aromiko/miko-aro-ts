@@ -63,6 +63,8 @@ img {
 body {
   background-color: #151515;
   color: white;
+  /* background-color: white;
+  color: #151515; */
 }
 
 .section-title {
@@ -73,6 +75,7 @@ body {
 
 .section-subtitle {
   color: rgba(255, 255, 255, 0.4);
+  /* color: rgba(0, 0, 0, 0.4); */
   font-size: 2rem;
   line-height: 2.5rem;
 }
@@ -82,4 +85,5 @@ body {
 .ico.twitter,
 .ico.linkedin {
   fill: white;
+  /* fill: #151515; */
 }
