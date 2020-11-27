@@ -5,8 +5,8 @@ import { ReactComponent as Instagram } from "assets/images/icons/instagram.svg";
 import { ReactComponent as Twitter } from "assets/images/icons/twitter.svg";
 import { ReactComponent as Linkedin } from "assets/images/icons/linkedin.svg";
 
-import { State } from "redux/Reducers";
-import { useSelector } from "react-redux";
+// import { State } from "redux/Reducers";
+// import { useSelector } from "react-redux";
 
 const Footer: React.FC = () => {
   // const navbarToggle: boolean = useSelector(
