@@ -29189,25 +29189,25 @@ body {
   color: #151515; */
 }
 
-.section-title {
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 3.5rem;
+.home {
+  .section-title {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+  }
+  .section-subtitle {
+    color: rgba(255, 255, 255, 0.4);
+    /* color: rgba(0, 0, 0, 0.4); */
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
 }
 
-.section-subtitle {
-  color: rgba(255, 255, 255, 0.4);
-  /* color: rgba(0, 0, 0, 0.4); */
-  font-size: 2rem;
-  line-height: 2.5rem;
-}
-
-.ico.facebook,
-.ico.instagram,
-.ico.twitter,
-.ico.linkedin {
-  fill: white;
-  /* fill: #151515; */
+.footer {
+  .ico {
+    fill: white;
+    /* fill: #151515; */
+  }
 }
 
 @media (min-width: 425px) {

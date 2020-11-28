@@ -1,15 +1,15 @@
-import "assets/styles/main.css";
+import "assets/styles/main.scss";
 
 import Footer from "components/Footer";
 import Home from "pages/Home";
 // import Work from "pages/Work";
 import Navbar from "components/Navbar";
-import React from "react";
+import React, { Fragment } from "react";
 import { Route, BrowserRouter, Redirect, Switch } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
+    <Fragment>
       <Navbar />
       <BrowserRouter>
         <Switch>
@@ -22,7 +22,7 @@ const App = () => {
         </Switch>
       </BrowserRouter>
       <Footer />
-    </div>
+    </Fragment>
   );
 };
 
