@@ -11,9 +11,9 @@ const Navbar: React.FC = () => {
   // const dispatch = useDispatch();
 
   return (
-    <div className="flex justify-between items-center w-full p-6 xl:px-80 z-50">
+    <section className="header flex justify-between items-center w-full p-6 xl:px-80 z-50">
       <h2 className="font-bold">miko aro</h2>
-    </div>
+    </section>
   );
 };
 
