@@ -7,7 +7,7 @@ import Navbar from "components/Navbar";
 import React, { Fragment } from "react";
 import { Route, BrowserRouter, Redirect, Switch } from "react-router-dom";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <Fragment>
       <Navbar />
