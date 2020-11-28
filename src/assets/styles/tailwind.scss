@@ -62,27 +62,25 @@ img {
 
 body {
   background-color: #151515;
-  @apply text-white; 
+  @apply text-white;
 }
 
 .home {
   .section-title {
     font-size: 3rem;
-    font-weight: 600;
-    line-height: 3.5rem;
+    @apply font-semibold;
+    @apply leading-14;
   }
 
   .section-subtitle {
-    color: rgba(255, 255, 255, 0.4);
-    /* color: rgba(0, 0, 0, 0.4); */
     font-size: 2rem;
-    line-height: 2.5rem;
+    @apply leading-10;
   }
 }
 
 .footer {
   .ico {
-    fill: white;
-    /* fill: #151515; */
+    @apply fill-current;
+    @apply text-white;
   }
 }

@@ -11,23 +11,22 @@ const Home = () => {
       background: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(${url}) no-repeat center center`,
       backgroundSize: "cover",
-      // color: "white",
     };
   };
 
   return (
     <section className="home px-6 xl:px-80">
       <div className="flex flex-col">
-        <div className="text-left text-xl lg:text-3xl my-24 lg:mb-42 lg:mt-36 lg:order-1 order-2">
+        <div className="text-left text-xl lg:text-3xl my-30 lg:mb-42 lg:mt-36 lg:order-1 order-2">
           <p className="section-title mb-6">
             Creating experiences that fuel work and life.
           </p>
-          <p className="section-subtitle">
+          <p className="section-subtitle text-white text-opacity-30">
             I'm Miko, a web developer focusing mainly on frontend development,
             user interface and experience.
           </p>
         </div>
-        <div className="lg:order-2 order-1 mt-18 lg:m-0 lg:mb-42">
+        <div className="lg:order-2 order-1 mt-24 lg:m-0 lg:mb-42">
           <img
             src={Windmill}
             alt="windmill"
