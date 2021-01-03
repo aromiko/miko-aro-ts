@@ -1,8 +1,8 @@
 // import { useDispatch, useSelector } from "react-redux";
 
-import React, { useState } from "react";
+import React from "react";
 import { useHistory } from "react-router-dom";
-import { useScrollPosition } from "@n8tb1t/use-scroll-position";
+// import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 // import { State } from "redux/Reducers";
 // import { toggleNavbar } from "redux/Actions";
 
@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
   // const dispatch = useDispatch();
   const history = useHistory();
 
-  const [hasBackground, setHasbackground] = useState(false);
+  // const [hasBackground, setHasbackground] = useState(false);
 
   const goToHome = () => {
     history.push("/home");
@@ -22,13 +22,13 @@ const Navbar: React.FC = () => {
     }, 10);
   };
 
-  useScrollPosition(({ prevPos, currPos }) => {
-    if (currPos.y <= -84) {
-      setHasbackground(true);
-    } else {
-      setHasbackground(false);
-    }
-  });
+  // useScrollPosition(({ prevPos, currPos }) => {
+  //   if (currPos.y <= -84) {
+  //     setHasbackground(true);
+  //   } else {
+  //     setHasbackground(false);
+  //   }
+  // });
 
   return (
     // <section
