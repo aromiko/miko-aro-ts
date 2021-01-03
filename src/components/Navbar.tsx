@@ -17,9 +17,7 @@ const Navbar: React.FC = () => {
 
   const goToHome = () => {
     history.push("/home");
-    setTimeout(() => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }, 10);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   // useScrollPosition(({ prevPos, currPos }) => {
