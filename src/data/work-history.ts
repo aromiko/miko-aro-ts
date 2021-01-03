@@ -6,22 +6,26 @@ import Sunset from "assets/images/sunset.jpeg";
 export const WorkHistoryData = [
   {
     company: "Bolton International",
-    description: "Work Description",
+    description: "Frontend Developer | 2020 - Present",
     imageUrl: Building,
+    route: "bolton",
   },
   {
     company: "Tanda | Workforce.com",
     description: "Work Description",
     imageUrl: Laptop,
+    route: "workforce",
   },
   {
     company: "Fujitsu Philippines",
     description: "Work Description",
     imageUrl: Port,
+    route: "fujitsu",
   },
   {
     company: "Misys Philippines",
     description: "Work Description",
     imageUrl: Sunset,
+    route: "misys",
   },
 ];

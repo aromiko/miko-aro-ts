@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
 
   const getCurrentYear: Number = new Date().getFullYear();
   return (
-    <section className="footer flex flex-col justify-center w-full px-6 pt-6 pb-12 xl:px-80 xl:py-6">
+    <section className="footer h-42 flex flex-col justify-center w-full px-6 pt-6 pb-12 xl:px-80 xl:py-6">
       <div className="flex flex-row mb-4">
         <a
           href="https://facebook.com/miko.aro"
