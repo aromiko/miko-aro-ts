@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
   return (
-    <section className="home px-6 xl:px-80">
+    <section className="home px-6 xl:px-86">
       <div className="flex flex-col">
         <div className="text-left text-xl lg:text-3xl my-30 lg:mb-42 lg:mt-57 lg:order-1 order-2">
           <p className="section-title mb-6">

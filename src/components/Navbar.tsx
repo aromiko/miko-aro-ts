@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
     //   }`}
     // >
     <section
-      className={`header h-21 flex justify-between items-center w-full p-6 xl:px-80 z-50 fixed transition-colors duration-300`}
+      className={`header h-21 flex justify-between items-center w-full p-6 xl:px-86 z-50 fixed transition-colors duration-300`}
     >
       <button onClick={goToHome}>
         <h2 className="font-bold">miko aro</h2>

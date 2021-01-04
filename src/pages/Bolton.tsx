@@ -1,17 +1,26 @@
-import React from "react";
+import React, { CSSProperties } from "react";
+import Stopover from "assets/images/stopover.jpg";
 
-const Bolton = () => {
+const Bolton: React.FC = () => {
+  const imageBoxStyle = (): CSSProperties => {
+    return {
+      background: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(${Stopover}) no-repeat center center`,
+      backgroundSize: "cover",
+    };
+  };
+
   return (
     <>
-      <div className="flex items-end bg-yellow-500 text-white sticky -top-21 h-63 xl:mx-80">
+      <div
+        className="flex items-end text-white sticky -top-63 h-105 xl:mx-80"
+        style={imageBoxStyle()}
+      >
         <div className="p-6 w-full">
           <h1 className="section-title font-bold">Bolton International</h1>
         </div>
       </div>
-      <div className="px-6 xl:px-80">
-        {/* <h2>Sticky Element: Scroll Down to See the Effect</h2>
-      <p>Scroll down this page to see how sticky positioning works.</p> */}
-
+      <div className="px-6 xl:px-86 py-40">
         <p>Some example text..</p>
         <h2>Scroll back up again to "remove" the sticky position.</h2>
         <p>
