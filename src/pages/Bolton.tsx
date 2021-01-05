@@ -13,7 +13,7 @@ const Bolton: React.FC = () => {
   return (
     <>
       <div
-        className="flex items-end text-white sticky -top-63 h-105 xl:mx-80"
+        className="flex items-end text-white sticky -top-42 h-105 xl:mx-80"
         style={imageBoxStyle()}
       >
         <div className="p-6 w-full">
