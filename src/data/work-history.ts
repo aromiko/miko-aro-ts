@@ -2,12 +2,13 @@ import Building from "assets/images/building.jpg";
 import Laptop from "assets/images/laptop.jpg";
 import Port from "assets/images/port.jpeg";
 import Sunset from "assets/images/sunset.jpeg";
+import Stopover from "assets/images/stopover.jpg";
 
 export const WorkHistoryData = [
   {
     company: "Bolton International",
     description: "Frontend Developer | 2020 - Present",
-    imageUrl: Building,
+    imageUrl: Stopover,
     route: "bolton",
   },
   {
@@ -19,7 +20,7 @@ export const WorkHistoryData = [
   {
     company: "Fujitsu Philippines",
     description: "Work Description",
-    imageUrl: Port,
+    imageUrl: Building,
     route: "fujitsu",
   },
   {

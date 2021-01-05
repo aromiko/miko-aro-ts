@@ -23,7 +23,7 @@ const Bolton: React.FC = () => {
           <h4 className="mt-2">Frontend Developer</h4>
         </div>
       </div>
-      <div className="px-6 xl:px-86 py-40">
+      <div className="px-6 xl:px-86 py-20">
         <p>Some example text..</p>
         <h2>Scroll back up again to "remove" the sticky position.</h2>
         <p>
