@@ -1,4 +1,5 @@
 import React, { CSSProperties } from "react";
+
 import { ImageTextCardType } from "types/prop-types";
 
 const ImageTextCard: React.FC<ImageTextCardType> = ({

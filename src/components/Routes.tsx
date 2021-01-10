@@ -1,8 +1,8 @@
-import React from "react";
-import { Route, Redirect, Switch } from "react-router-dom";
+import { Redirect, Route, Switch } from "react-router-dom";
 
-import Home from "pages/Home";
 import Bolton from "pages/Bolton";
+import Home from "pages/Home";
+import React from "react";
 
 const Routes = () => {
   return (

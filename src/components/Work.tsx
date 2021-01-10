@@ -1,4 +1,5 @@
 import React, { CSSProperties } from "react";
+
 import Stopover from "assets/images/stopover.jpg";
 
 const Work: React.FC = () => {

@@ -1,18 +1,10 @@
-import React from "react";
-
 import { ReactComponent as Facebook } from "assets/images/icons/facebook.svg";
 import { ReactComponent as Instagram } from "assets/images/icons/instagram.svg";
-import { ReactComponent as Twitter } from "assets/images/icons/twitter.svg";
 import { ReactComponent as Linkedin } from "assets/images/icons/linkedin.svg";
-
-// import { State } from "redux/Reducers";
-// import { useSelector } from "react-redux";
+import React from "react";
+import { ReactComponent as Twitter } from "assets/images/icons/twitter.svg";
 
 const Footer: React.FC = () => {
-  // const navbarToggle: boolean = useSelector(
-  //   (state: State) => state.navbarToggle
-  // );
-
   const getCurrentYear: Number = new Date().getFullYear();
   return (
     <section className="footer h-42 flex flex-col justify-center w-full px-6 pt-6 pb-12 xl:px-86 xl:py-6">

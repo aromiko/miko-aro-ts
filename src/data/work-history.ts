@@ -1,7 +1,7 @@
 import Building from "assets/images/building.jpg";
 import Laptop from "assets/images/laptop.jpg";
-import Sunset from "assets/images/sunset.jpeg";
 import Stopover from "assets/images/stopover.jpg";
+import Sunset from "assets/images/sunset.jpeg";
 
 export const WorkHistoryData = [
   {
