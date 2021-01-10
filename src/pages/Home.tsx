@@ -1,8 +1,8 @@
+import ImageTextCard from "components/ImageTextCard";
+import { Link } from "react-router-dom";
 import React from "react";
 import Windmill from "assets/images/windmill.jpg";
 import { WorkHistoryData } from "data";
-import ImageTextCard from "components/ImageTextCard";
-import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
   return (

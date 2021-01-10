@@ -1,4 +1,5 @@
 import React, { CSSProperties } from "react";
+
 import Stopover from "assets/images/stopover.jpg";
 
 const Bolton: React.FC = () => {
@@ -13,7 +14,7 @@ const Bolton: React.FC = () => {
   return (
     <>
       <div
-        className="flex items-end text-white sticky -top-42 h-84 xl:mx-80"
+        className="flex items-end text-white h-84 xl:mx-80"
         style={imageBoxStyle()}
       >
         <div className="p-6 w-full">
