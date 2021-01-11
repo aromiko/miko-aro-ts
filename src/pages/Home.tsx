@@ -28,22 +28,25 @@ const Home: React.FC = () => {
       <div className="section-work flex flex-col mb-18 lg:mb-30">
         <div className="section-title mb-6">Work</div>
         <div className="flex flex-wrap">
-          {WorkHistoryData.map(({ company, description, imageUrl, route }) => {
-            return (
-              <div
-                className="lg:w-1/2 w-full mb-6 lg:even:pl-3 lg:odd:pr-3"
-                key={company}
-              >
-                <Link to={route}>
-                  <ImageTextCard
-                    header={company}
-                    body={description}
-                    imageUrl={imageUrl}
-                  />
-                </Link>
-              </div>
-            );
-          })}
+          {WorkHistoryData.map(
+            ({ company, description, imageUrl, route, theme }) => {
+              return (
+                <div
+                  className="lg:w-1/2 w-full mb-6 lg:even:pl-3 lg:odd:pr-3"
+                  key={company}
+                >
+                  <Link to={route}>
+                    <ImageTextCard
+                      header={company}
+                      body={description}
+                      imageUrl={imageUrl}
+                      color={theme}
+                    />
+                  </Link>
+                </div>
+              );
+            }
+          )}
         </div>
       </div>
     </section>

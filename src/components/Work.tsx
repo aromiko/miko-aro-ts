@@ -1,8 +1,9 @@
-import React, { CSSProperties } from "react";
+import React, { CSSProperties, Fragment } from "react";
 
 import Stopover from "assets/images/stopover.jpg";
+import { WorkPageType } from "types/prop-types";
 
-const Work: React.FC = () => {
+const Work: React.FC<WorkPageType> = ({ company, title, tenure }) => {
   const imageBoxStyle = (): CSSProperties => {
     return {
       background: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -12,16 +13,15 @@ const Work: React.FC = () => {
   };
 
   return (
-    <>
+    <Fragment>
       <div
-        className="flex items-end text-white sticky -top-42 h-84 xl:mx-80"
+        className="flex items-end text-white h-84 xl:mx-80"
         style={imageBoxStyle()}
       >
         <div className="p-6 w-full">
-          <h1 className="section-title font-bold leading-11">
-            Bolton International
-          </h1>
-          <h4 className="mt-2">Frontend Developer</h4>
+          <h1 className="section-title font-bold leading-11">{company}</h1>
+          <h4 className="mt-2">{title}</h4>
+          <h5 className="mt-2">{tenure}</h5>
         </div>
       </div>
       <div className="px-6 xl:px-86 py-20">
@@ -261,7 +261,7 @@ const Work: React.FC = () => {
           porta. Cras ac leo purus. Mauris quis diam velit.
         </p>
       </div>
-    </>
+    </Fragment>
   );
 };
 

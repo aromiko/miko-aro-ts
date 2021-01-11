@@ -5,14 +5,12 @@ import React, { Fragment } from "react";
 import { BrowserRouter } from "react-router-dom";
 import Footer from "components/Footer";
 import Navbar from "components/Navbar";
-import Routes from "components/Routes";
-import ScrollToTop from "helpers/ScrollToTop";
+import Routes from "pages/Routes";
 
 const App: React.FC = () => {
   return (
     <Fragment>
       <BrowserRouter>
-        <ScrollToTop />
         <Navbar />
         <Routes />
         <Footer />
