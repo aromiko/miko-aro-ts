@@ -65,17 +65,15 @@ body {
   @apply text-white;
 }
 
-.home {
-  .section-title {
-    font-size: 3rem;
-    @apply font-semibold;
-    @apply leading-14;
-  }
+.section-title {
+  font-size: 3rem;
+  @apply font-semibold;
+  @apply leading-14;
+}
 
-  .section-subtitle {
-    font-size: 2rem;
-    @apply leading-10;
-  }
+.section-subtitle {
+  font-size: 2rem;
+  @apply leading-10;
 }
 
 .footer {

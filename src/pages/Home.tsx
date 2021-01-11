@@ -12,7 +12,7 @@ const Home: React.FC = () => {
           <p className="section-title mb-6">
             Creating experiences that fuel work and life.
           </p>
-          <p className="section-subtitle text-white text-opacity-30">
+          <p className="section-subtitle text-white text-opacity-60">
             I'm Miko, a web developer focusing mainly on frontend development,
             user interface and experience.
           </p>

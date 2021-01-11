@@ -2,7 +2,7 @@ import { Redirect, Route, Switch } from "react-router-dom";
 
 import Home from "pages/Home";
 import React from "react";
-import Work from "components/Work";
+import Work from "pages/Work";
 import { WorkHistoryData } from "data/work-history";
 
 const Routes = () => {
