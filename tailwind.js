@@ -234,14 +234,7 @@ module.exports = {
       136: "34rem",
       144: "36rem",
     },
-    backgroundColor: (theme) =>
-      theme({
-        ...theme("colors"),
-        misys: "#c137a2",
-        fujitsu: "#ec1d24",
-        tanda: "#3fafd6",
-        bolton: "#f58a20",
-      }),
+    backgroundColor: (theme) => theme("colors"),
     backgroundPosition: {
       bottom: "bottom",
       center: "center",
