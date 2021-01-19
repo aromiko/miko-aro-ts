@@ -76,7 +76,8 @@ body {
   @apply leading-10;
 }
 
-.footer {
+.footer,
+.card-image-text {
   .ico {
     @apply fill-current;
     @apply text-white;

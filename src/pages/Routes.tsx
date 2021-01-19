@@ -19,6 +19,7 @@ const Routes = () => {
                 company={data.company}
                 title={data.title}
                 tenure={data.tenure}
+                titleImage={data.imageUrl}
               />
             )}
           />

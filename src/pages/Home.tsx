@@ -21,7 +21,7 @@ const Home: React.FC = () => {
           <img
             src={Windmill}
             alt="windmill"
-            className="object-cover h-64 md:h-full w-full"
+            className="object-cover h-96 w-full"
           />
         </div>
       </div>

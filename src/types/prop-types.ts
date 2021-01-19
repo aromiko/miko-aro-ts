@@ -9,5 +9,6 @@ export type WorkPageType = {
   company: string;
   title: string;
   tenure: string;
+  titleImage?: string;
   body?: string;
 };

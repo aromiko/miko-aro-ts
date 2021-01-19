@@ -1,7 +1,7 @@
 import Building from "assets/images/building.jpg";
 import Laptop from "assets/images/laptop.jpg";
 import Stopover from "assets/images/stopover.jpg";
-import Sunset from "assets/images/sunset.jpeg";
+import Zuellig from "assets/images/zuellig.jpg";
 
 export const WorkHistoryData = [
   {
@@ -15,7 +15,7 @@ export const WorkHistoryData = [
     theme: "#f58a20",
   },
   {
-    company: "Tanda | Workforce.com",
+    company: "Tanda | Workforce",
     description:
       "Tanda / Workforce.com is a platform for workforce success that helps businesses build productive workforces to create more jobs",
     title: "Frontend Web Developer",
@@ -37,8 +37,8 @@ export const WorkHistoryData = [
   {
     company: "Misys Philippines",
     description:
-      "Misys (Finastra) offers one of the broadest portfolio of solutions for financial institutions of all sizes",
-    imageUrl: Sunset,
+      "Misys (now Finastra) offers one of the broadest portfolio of solutions for financial institutions of all sizes",
+    imageUrl: Zuellig,
     title: "Software QA Tester Intern",
     tenure: "January 2016 - May 2016",
     route: "misys",

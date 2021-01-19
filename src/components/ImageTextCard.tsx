@@ -22,13 +22,13 @@ const ImageTextCard: React.FC<ImageTextCardType> = ({
 
   return (
     <div
-      className="card-image-text flex flex-col h-80 p-6"
+      className="card-image-text flex flex-col h-96 p-6"
       style={isHovered ? imageBoxHoveredStyle : imageBoxStyle}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <h4 className="font-bold">{header}</h4>
-      <p className="mt-auto font-light">{body}</p>
+      <p className="mt-auto">{body}</p>
     </div>
   );
 };
