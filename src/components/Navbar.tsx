@@ -9,9 +9,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <section
-      className={`header h-21 flex justify-between items-center w-full p-6 xl:px-86 z-50 fixed transition-colors duration-300`}
-    >
+    <section className="header h-21 flex justify-between items-center w-full p-6 xl:px-86 z-50 fixed transition-colors duration-300">
       <button onClick={goToHome}>
         <h2 className="font-bold">miko aro</h2>
       </button>

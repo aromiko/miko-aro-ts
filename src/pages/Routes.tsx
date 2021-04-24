@@ -1,9 +1,8 @@
-import { Redirect, Route, Switch } from "react-router-dom";
-
-import Home from "pages/Home";
-import React from "react";
-import Work from "pages/Work";
 import { WorkHistoryData } from "data/work-history";
+import Home from "pages/Home";
+import Work from "pages/Work";
+import React from "react";
+import { Redirect, Route, Switch } from "react-router-dom";
 
 const Routes = () => {
   return (
@@ -17,7 +16,8 @@ const Routes = () => {
             render={() => (
               <Work
                 company={data.company}
-                title={data.title}
+                metaDescription={data.metaDescription}
+                position={data.position}
                 tenure={data.tenure}
                 titleImage={data.imageUrl}
               />

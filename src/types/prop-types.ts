@@ -7,7 +7,8 @@ export type ImageTextCardType = {
 
 export type WorkPageType = {
   company: string;
-  title: string;
+  metaDescription: string;
+  position: string;
   tenure: string;
   titleImage?: string;
   body?: string;
