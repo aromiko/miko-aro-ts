@@ -8,6 +8,9 @@ const Work: React.FC<WorkPageType> = ({
   position,
   tenure,
   titleImage,
+  sectionImage,
+  sectionOne,
+  sectionTwo,
 }) => {
   return (
     <Fragment>
@@ -29,10 +32,31 @@ const Work: React.FC<WorkPageType> = ({
             <img
               src={titleImage}
               alt={company}
-              className="object-cover h-72 lg:h-96 w-full"
+              className="object-cover h-72 lg:h-120 w-full"
             />
           </div>
         </div>
+        {sectionOne && (
+          <div className="pb-42">
+            <p className="section-body">{sectionOne}</p>
+          </div>
+        )}
+
+        {sectionImage && (
+          <div className="mb-42">
+            <img
+              src={sectionImage}
+              alt={company}
+              className="object-cover h-72 lg:h-120 w-full"
+            />
+          </div>
+        )}
+
+        {sectionTwo && (
+          <div className="pb-36">
+            <p className="section-body">{sectionTwo}</p>
+          </div>
+        )}
       </section>
     </Fragment>
   );

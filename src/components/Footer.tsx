@@ -1,8 +1,8 @@
 import { ReactComponent as Facebook } from "assets/images/icons/facebook.svg";
 import { ReactComponent as Instagram } from "assets/images/icons/instagram.svg";
 import { ReactComponent as Linkedin } from "assets/images/icons/linkedin.svg";
-import React from "react";
 import { ReactComponent as Twitter } from "assets/images/icons/twitter.svg";
+import React from "react";
 
 const Footer: React.FC = () => {
   const getCurrentYear: Number = new Date().getFullYear();

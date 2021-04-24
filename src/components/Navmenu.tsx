@@ -1,10 +1,10 @@
 import Facebook from "assets/images/icons/facebook.svg";
 import Instagram from "assets/images/icons/instagram.svg";
 import Linkedin from "assets/images/icons/linkedin.svg";
-import React from "react";
-import { State } from "redux/Reducers";
 import Twitter from "assets/images/icons/twitter.svg";
+import React from "react";
 import { useSelector } from "react-redux";
+import { State } from "redux/Reducers";
 
 const Navmenu: React.FC = () => {
   const navbarToggle = useSelector((state: State) => state.navbarToggle);

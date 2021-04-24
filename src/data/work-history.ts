@@ -1,4 +1,5 @@
 import Building from "assets/images/building.jpg";
+import Homesetup from "assets/images/homesetup.jpg";
 import Laptop from "assets/images/laptop.jpg";
 import Stopover from "assets/images/stopover.jpg";
 import Zuellig from "assets/images/zuellig.jpg";
@@ -15,7 +16,11 @@ export const WorkHistoryData = [
     imageUrl: Stopover,
     route: "bolton",
     theme: "#f58a20",
-    section: "",
+    sectionImage: Homesetup,
+    sectionOne:
+      "Joining Bolton International is a very new experience for me since it's during the midst of COVID-19 pandemic. Work is now fully remote and I have to make some adjustments to be fully productive.",
+    sectionTwo:
+      "Our client OpenEnvoy, is a fintech startup company that audits every invoice for duplicate billings, excess charges, and supplier fraud. It is a very interesting project for me and a challenging one since I'm working with some of the most talented people I've ever met.",
   },
   {
     company: "Tanda | Workforce",

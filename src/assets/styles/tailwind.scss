@@ -65,6 +65,11 @@ body {
   @apply text-white;
 }
 
+.main-container {
+  max-width: 1920px;
+  margin: auto;
+}
+
 .section-title {
   font-size: 3rem;
   @apply font-semibold;
@@ -74,6 +79,14 @@ body {
 .section-subtitle {
   font-size: 2rem;
   @apply leading-10;
+}
+
+.section-body {
+  font-size: 2rem;
+  @apply leading-10;
+  @apply text-white;
+  @apply text-opacity-60;
+  @apply font-light;
 }
 
 .footer,

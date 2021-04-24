@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { ImageTextCardType } from "types/prop-types";
 
 const ImageTextCard: React.FC<ImageTextCardType> = ({
@@ -22,7 +21,7 @@ const ImageTextCard: React.FC<ImageTextCardType> = ({
 
   return (
     <div
-      className="card-image-text flex flex-col h-96 p-6"
+      className="card-image-text flex flex-col h-72 lg:h-120 p-6"
       style={isHovered ? imageBoxHoveredStyle : imageBoxStyle}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}

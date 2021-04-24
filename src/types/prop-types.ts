@@ -12,4 +12,7 @@ export type WorkPageType = {
   tenure: string;
   titleImage?: string;
   body?: string;
+  sectionImage?: string;
+  sectionOne?: string;
+  sectionTwo?: string;
 };

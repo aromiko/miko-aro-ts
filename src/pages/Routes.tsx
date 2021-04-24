@@ -20,6 +20,9 @@ const Routes = () => {
                 position={data.position}
                 tenure={data.tenure}
                 titleImage={data.imageUrl}
+                sectionImage={data.sectionImage}
+                sectionOne={data.sectionOne}
+                sectionTwo={data.sectionTwo}
               />
             )}
           />
