@@ -13,6 +13,8 @@ export type WorkPageType = {
   titleImage?: string;
   body?: string;
   sectionImage?: string;
+  sectionImageTwo?: string;
   sectionOne?: string;
   sectionTwo?: string;
+  technology?: string[];
 };

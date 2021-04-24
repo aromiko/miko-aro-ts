@@ -9,8 +9,10 @@ const Work: React.FC<WorkPageType> = ({
   tenure,
   titleImage,
   sectionImage,
+  sectionImageTwo,
   sectionOne,
   sectionTwo,
+  technology,
 }) => {
   return (
     <Fragment>
@@ -32,7 +34,7 @@ const Work: React.FC<WorkPageType> = ({
             <img
               src={titleImage}
               alt={company}
-              className="object-cover h-72 lg:h-120 w-full"
+              className="object-cover h-84 lg:h-120 w-full"
             />
           </div>
         </div>
@@ -47,14 +49,35 @@ const Work: React.FC<WorkPageType> = ({
             <img
               src={sectionImage}
               alt={company}
-              className="object-cover h-72 lg:h-120 w-full"
+              className="object-cover object-top h-84 lg:h-120 w-full"
             />
           </div>
         )}
 
         {sectionTwo && (
-          <div className="pb-36">
+          <div className="pb-42">
             <p className="section-body">{sectionTwo}</p>
+          </div>
+        )}
+
+        {sectionImageTwo && (
+          <div className="mb-42">
+            <img
+              src={sectionImageTwo}
+              alt={company}
+              className="object-cover object-top h-84 lg:h-120 w-full"
+            />
+          </div>
+        )}
+
+        {technology && (
+          <div className="section-list pb-36">
+            <p className="section-label text-white pb-2">Technology</p>
+            <ul>
+              {technology.map((tech) => {
+                return <li>{tech}</li>;
+              })}
+            </ul>
           </div>
         )}
       </section>

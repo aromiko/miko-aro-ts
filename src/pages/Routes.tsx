@@ -4,7 +4,7 @@ import Work from "pages/Work";
 import React from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
 
-const Routes = () => {
+const Routes: React.FC = () => {
   return (
     <Switch>
       <Route exact path="/home" component={Home} />
@@ -21,8 +21,10 @@ const Routes = () => {
                 tenure={data.tenure}
                 titleImage={data.imageUrl}
                 sectionImage={data.sectionImage}
+                sectionImageTwo={data.sectionImageTwo}
                 sectionOne={data.sectionOne}
                 sectionTwo={data.sectionTwo}
+                technology={data.technology}
               />
             )}
           />
